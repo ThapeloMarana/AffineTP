@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Construction Investors</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .hero {
+            background-image: url('construction-site.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero button {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .content {
+            padding: 2rem;
+        }
+
+        .investors {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            width: calc(33% - 1rem);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        .contact-form {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body style="background-image: url('7.jpg'); height: 100%;width: 100%;">
+    <nav>
+            
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <h1 style="align:center";>BuildInvest</h1>
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Invest with US!</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="Construcrion_Website_v1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="COnstruction_AboutUS.html">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Construction_contact.html">Contacts</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+
+
+    <header>
+        <h1>Construction Investors</h1>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>Invest in the Future of Construction</h1>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <section class="content">
+        <h2 style="color: #f9f9f9;">Investment Opportunities</h2>
+        <div class="investors">
+            <div class="card">
+                <h3>Project A</h3>
+                <p>Investment Required: M500,000</p>
+                <p>Location: Downtown</p>
+            </div>
+            <div class="card">
+                <h3>Project B</h3>
+                <p>Investment Required: M1,000,000</p>
+                <p>Location: Suburbs</p>
+            </div>
+            <div class="card">
+                <h3>Project C</h3>
+                <p>Investment Required: M750,000</p>
+                <p>Location: City Outskirts</p>
+            </div>
+        </div>
+
+        <form class="contact-form">
+            <h2>Contact Us</h2>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Construction Investors. All rights reserved.</p>
+    </footer>
+</body>
+</html>
